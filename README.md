@@ -1,16 +1,16 @@
 <div align="center">
   <h1 align="center">🚀 Cybertemp Authoritative DNS Server</h1>
   <p align="center">
-    A high-performance, production-ready authoritative DNS server built with Rust, powering Cybertemp's domain management infrastructure. Handles DNS queries, domain verification, and dynamic record management with PostgreSQL and Supabase integration.
+    A high-performance, production-ready authoritative DNS server built with Rust (currently in beta), powering Cybertemp's domain management infrastructure. Handles DNS queries, domain verification, and dynamic record management with PostgreSQL and Supabase integration.
     <br />
     <br />
     <a href="https://discord.cyberious.xyz">💬 Discord</a>
     ·
     <a href="#-changelog">📜 ChangeLog</a>
     ·
-    <a href="https://github.com/sexfrance/dns-server/issues">⚠️ Report Bug</a>
+    <a href="https://github.com/sexfrance/Authorative-DNS-server/issues">⚠️ Report Bug</a>
     ·
-    <a href="https://github.com/sexfrance/dns-server/issues">💡 Request Feature</a>
+    <a href="https://github.com/sexfrance/Authorative-DNS-server/issues">💡 Request Feature</a>
   </p>
 </div>
 
@@ -43,6 +43,8 @@
 **THIS README IS GENERATED FOR THE CYBERTEMP DNS SERVER**
 
 **This is the authoritative DNS server currently powering [Cybertemp](https://cybertemp.xyz)** - a domain management service handling DNS resolution for managed domains. The codebase is functional and designed for high concurrency and reliability.
+
+> ⚠️ **BETA STATUS**: This project is currently in beta and under active development. Features may change, and it's recommended for testing purposes only.
 
 This server is designed as an **authoritative DNS server** that:
 
@@ -130,8 +132,8 @@ This server is designed as an **authoritative DNS server** that:
 2. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/sexfrance/dns-server.git
-   cd dns-server
+   git clone https://github.com/sexfrance/Authorative-DNS-server.git
+   cd Authorative-DNS-server
    ```
 
 3. **Build the project**:
@@ -492,7 +494,7 @@ sudo setcap CAP_NET_BIND_SERVICE=+eip ./target/release/cybertemp_dns
 
 | Component                     | Status               | Notes |
 |-------------------------------|----------------------|-------|
-| **Rust Implementation**       | ✅ **Active**        | Production-ready |
+| **Rust Implementation**       | 🚧 **Beta**          | In active development |
 | **PostgreSQL Storage**        | ✅ Production        | Stable |
 | **Supabase Integration**      | ✅ Production        | Working |
 | **DNS Protocol Handling**     | ✅ Production        | Trust-DNS |
@@ -536,7 +538,7 @@ v0.1.0 ⋮ 11/01/2025
 
 - **Discord**: [discord.cyberious.xyz](https://discord.cyberious.xyz)
 - **Email**: support@cybertemp.xyz
-- **Issues**: [GitHub Issues](https://github.com/sexfrance/dns-server/issues)
+- **Issues**: [GitHub Issues](https://github.com/sexfrance/Authorative-DNS-server/issues)
 
 ---
 
@@ -564,5 +566,5 @@ MIT License - See LICENSE file for details
 <div align="center">
   <strong>⭐ Star this repo if you found it helpful!</strong>
   <br />
-  <sub>Currently powering Cybertemp's DNS infrastructure 🚀</sub>
+  <sub>Currently in beta development - powering Cybertemp's DNS infrastructure 🚀</sub>
 </div>
